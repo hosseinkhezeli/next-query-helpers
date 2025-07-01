@@ -1,0 +1,41 @@
+{
+  "name": "next-query-helpers",
+  "version": "1.0.1",
+  "description": "Lightweight utility hook to manage query parameters in Next.js App Router",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "nextjs",
+    "query",
+    "router",
+    "hooks",
+    "searchparams",
+    "typescript",
+    "url"
+  ],
+  "author": "Hossein Khezeli",
+  "license": "MIT",
+  "sideEffects": false,
+  "peerDependencies": {
+    "next": "^13.4.0",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "tsup": "^7.0.0",
+    "typescript": "^5.0.0"
+  }
+}
