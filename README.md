@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/next-query-utils.svg)](https://www.npmjs.com/package/next-query-utils)
+[![npm downloads](https://img.shields.io/npm/dm/next-query-utils.svg)](https://www.npmjs.com/package/next-query-utils)
 # next-query-helpers
 
 A lightweight utility hook to manage query parameters in **Next.js App Router** using React.
